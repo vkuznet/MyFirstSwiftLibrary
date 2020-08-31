@@ -14,5 +14,13 @@ swift package init --type library
 # push changes to git and tag it
 git commit -m "First commit" -a
 git tag 1.0.0
+
+# build library code
+swift build
+
+# clean-up your build area
+swift package clean
 ```
-Now this library is ready to be used.
+Now this library is ready to be used, please see
+[MyFirstSwiftApp](https://github.com/vkuznet/MyFirstSwiftApp)
+how to build your first app and use this library
